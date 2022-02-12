@@ -1,10 +1,9 @@
-import React from 'react';
 
 import Logo from '../../assets/logo.png'
 
 import { Container , ButtonLink  , SearchIcon , CartSellIcon , BoxIcon , UserIcon , Button} from './styles'
 
-export function Header(){
+export function DesktopHeader(){
   return(
     <Container>
 

@@ -1,4 +1,7 @@
-import  {Header}  from './models/Header'
+
+import  {DesktopHeader}  from './models/DesktopHeader'
+import  {MobileHeader}  from './models/MobileHeader'
+import  {Main}  from './models/Main'
 import {GlobalStyle} from './styles/App'
 
 function App() {
@@ -6,7 +9,17 @@ function App() {
   return (
     <>
       <GlobalStyle/>
-      <Header/>
+
+
+      <DesktopHeader/>
+      <MobileHeader/>
+
+
+      <div>
+        <Main/>
+      </div>
+
+      
     </>  
   )
 }

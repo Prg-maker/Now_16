@@ -11,11 +11,10 @@ const styleIconsGlobal = css`
 
 export const Container = styled.header`
   width:100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 20px 150px;
-
   .left{
     display: flex;
     align-items: center;
@@ -26,6 +25,14 @@ export const Container = styled.header`
     margin-right:50px;
   }
 
+
+  @media(min-width: 1180px){
+    &{
+      display: flex ;
+    }
+  }
+
+ 
  
 `;
 
