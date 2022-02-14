@@ -12,8 +12,8 @@ export function Main(){
         </div>
 
         <div className="right">
-          <img src={PersonImg} alt="" />
-          <img src={Person2Img} alt="" />
+          <img src={PersonImg} alt="Imagem de pessoa" />
+          <img src={Person2Img} alt="Imagem de pessoa" />
         </div>
     </Container>
   )
