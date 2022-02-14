@@ -10,4 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   *,button , input{
     font-family: 'Bebas Neue', cursive;
   }
+  html,body{
+    background-color: #F5F5F5;
+  }
 ` 

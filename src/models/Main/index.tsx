@@ -1,4 +1,4 @@
-import {Container , TextHard , TextMedium} from './style'
+import {Container , TextHard , TextMedium , ArrowLeft  } from './style'
 
 import PersonImg from '../../assets/Rectangle 2.png'
 import Person2Img from '../../assets/Rectangle 3.png'
@@ -8,7 +8,11 @@ export function Main(){
     <Container>
         <div className="left">
           <TextHard>New generation shop experiences for you</TextHard>
-          <TextMedium>Bringing fashion back to its original and classic form</TextMedium>
+          <TextMedium>
+            Bringing fashion back to its original and classic form
+            
+            <p><ArrowLeft/> Shop now</p>
+          </TextMedium>
         </div>
 
         <div className="right">
